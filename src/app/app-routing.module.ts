@@ -12,6 +12,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'receta-categoria-page',
+    loadChildren: () => import('./pages/receta-categoria-page/receta-categoria-page.module').then( m => m.RecetaCategoriaPagePageModule)
+  },
+  {
+    path: 'search-page',
+    loadChildren: () => import('./pages/search-page/search-page.module').then( m => m.SearchPagePageModule)
+  },
+  {
+    path: 'receta-detalle-page',
+    loadChildren: () => import('./pages/receta-detalle-page/receta-detalle-page.module').then( m => m.RecetaDetallePagePageModule)
+  }
  
 
 ];

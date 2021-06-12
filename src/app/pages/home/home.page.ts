@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -38,7 +39,16 @@ export class HomePage implements OnInit {
 
   
 
-  constructor() { }
+  constructor(public router: Router) { }
+
+  goToSearchPage() {
+    this.router.navigate(['/search-page']);
+  }
+
+
+  goToCategoriesPage() {
+    this.router.navigate(['/receta-categoria-page']);
+  }
 
   ngOnInit() {
   }

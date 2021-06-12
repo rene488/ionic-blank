@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-listado-recetas-component',
@@ -9,8 +10,12 @@ export class ListadoRecetasComponentComponent implements OnInit {
 
   fakeArray = [1,1,1,1,1,1];
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {}
+
+  goToRecetaDetallePage() {
+    this.router.navigate(['/receta-detalle-page']);
+  }
 
 }

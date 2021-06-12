@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { RecetaCategoriaPagePageRoutingModule } from './receta-categoria-page-routing.module';
 
 import { RecetaCategoriaPagePage } from './receta-categoria-page.page';
+import { ListadoRecetasComponentComponent } from '../../components/listado-recetas-component/listado-recetas-component.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { RecetaCategoriaPagePage } from './receta-categoria-page.page';
     IonicModule,
     RecetaCategoriaPagePageRoutingModule
   ],
-  declarations: [RecetaCategoriaPagePage]
+  declarations: [RecetaCategoriaPagePage, ListadoRecetasComponentComponent],
+  entryComponents:[ListadoRecetasComponentComponent]
 })
 export class RecetaCategoriaPagePageModule {}
