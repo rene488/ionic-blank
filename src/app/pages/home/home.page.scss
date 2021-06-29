@@ -1,0 +1,25 @@
+.icon-search {
+    color: #b7c3ce;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.slide {
+    width: 140px;
+    height: 90px;
+}
+
+.img-categoria {
+    border-radius: 12px;
+    width: 140px;
+    z-index: 0;
+}
+
+.text-pizza {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    left: 10px;
+    bottom: 10px;
+}

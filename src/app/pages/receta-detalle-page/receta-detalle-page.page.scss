@@ -1,0 +1,46 @@
+.icon-back {
+  position: absolute;
+  font-size: 24px;
+  top: 2vh;
+  left: 2vw;
+}
+
+.img-receta {
+  width: 100;
+  height: 50vh;
+}
+
+.body-recipe-container {
+    padding: 10px;
+
+}
+
+.slide-ingredientes {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.img-ingrediente {
+    border-radius: 12px;
+    width: 100px;
+    z-index: 0;
+    
+}
+
+.text-top-ingrediente {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  left: 10px;
+  bottom: 30px;
+}
+
+.text-bottom-ingrediente {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  left: 10px;
+  bottom: 10px;
+}
